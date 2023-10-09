@@ -1,0 +1,7 @@
+public class PizzariaAtlantico implements PizzaFactory{
+
+    @Override
+    public PizzaStrategy sabor() {
+        return new saborCalabresa();
+    }
+}
